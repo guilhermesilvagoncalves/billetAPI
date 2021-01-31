@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS billet;
+
+CREATE TABLE billet (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  car_id INT NOT NULL,
+  code VARCHAR(13) NOT NULL,
+  due_date DATE
+);
